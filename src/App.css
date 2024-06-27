@@ -1,3 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 375px) {
+  .App {
+    height: 812px;
+  }
 }

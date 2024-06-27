@@ -21,4 +21,8 @@ Este é um projeto de exemplo para um sistema de login e registro, utilizando Re
 1.
    
 
+## Observacões
 
+- **Página 404**: Página 404 funcionando e ativada caso o usuário tente entrar em alguma url não implementada.
+
+new
