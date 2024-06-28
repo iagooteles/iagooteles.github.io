@@ -2,7 +2,7 @@
   "name": "login-register-bellosoft",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iagooteles.github.io/login-register-bellosoft",
+  "homepage": "https://iagooteles.github.io/login-register",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
