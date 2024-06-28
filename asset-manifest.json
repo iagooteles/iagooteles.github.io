@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/login-register-bellosoft/static/css/main.5d70d628.css",
-    "main.js": "/login-register-bellosoft/static/js/main.5990a093.js",
-    "static/media/404.png": "/login-register-bellosoft/static/media/404.c6186951bcd975b275be.png",
-    "static/media/img-login-register.png": "/login-register-bellosoft/static/media/img-login-register.28b6c5864aba32f6ad1a.png",
-    "index.html": "/login-register-bellosoft/index.html",
-    "main.5d70d628.css.map": "/login-register-bellosoft/static/css/main.5d70d628.css.map",
-    "main.5990a093.js.map": "/login-register-bellosoft/static/js/main.5990a093.js.map"
+    "main.css": "/login-register/static/css/main.5d70d628.css",
+    "main.js": "/login-register/static/js/main.84365053.js",
+    "static/media/404.png": "/login-register/static/media/404.c6186951bcd975b275be.png",
+    "static/media/img-login-register.png": "/login-register/static/media/img-login-register.28b6c5864aba32f6ad1a.png",
+    "index.html": "/login-register/index.html",
+    "main.5d70d628.css.map": "/login-register/static/css/main.5d70d628.css.map",
+    "main.84365053.js.map": "/login-register/static/js/main.84365053.js.map"
   },
   "entrypoints": [
     "static/css/main.5d70d628.css",
-    "static/js/main.5990a093.js"
+    "static/js/main.84365053.js"
   ]
 }
