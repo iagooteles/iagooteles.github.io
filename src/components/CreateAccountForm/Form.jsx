@@ -9,6 +9,8 @@ export default function Form() {
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState("");
   const [passwordStrength, setPasswordStrength] = useState("");
+  const [mobileNumber, setMobileNumber] = useState("");
+  const [mobileNumberError, setMobileNumberError] = useState("");
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -30,6 +32,18 @@ export default function Form() {
     const newPassword = e.target.value;
     setPassword(newPassword);
     setPasswordStrength(checkPasswordStrength(newPassword));
+  };
+
+  const handleMobileNumberChange = (e) => {
+    const value = e.target.value;
+    setMobileNumber(value);
+
+    // Validate if the input consists only of digits
+    if (/^\d+$/.test(value)) {
+      setMobileNumberError("");
+    } else {
+      setMobileNumberError("Mobile number should contain only digits");
+    }
   };
 
   return (
@@ -64,11 +78,14 @@ export default function Form() {
               <input
                 id="number"
                 name="number"
-                type="number"
+                type="text" // Using type text for flexibility
                 placeholder="Your mobile number"
-                autocomplete="off"
+                autoComplete="off"
+                value={mobileNumber}
+                onChange={handleMobileNumberChange}
                 required
               />
+              {mobileNumberError && <small>{mobileNumberError}</small>}
             </div>
           </div>
         </div>
