@@ -21,8 +21,8 @@ O projeto encontra-se responsivo, sua limitação para telas maiores é de 716px
 
 ## Como Executar o Projeto
 
-1. O projeto já se encontra em deploy, podendo ser acessado pelo link: https://iagooteles.github.io/login-register-bellosoft
-2. O repositório github deste projeto é: https://github.com/iagooteles/login-register-bellosoft
+1. O projeto já se encontra em deploy, podendo ser acessado pelo link: https://iagooteles.github.io/
+2. O repositório github deste projeto é: https://github.com/iagooteles/iagooteles.github.io
    
 
 ## Observacões
